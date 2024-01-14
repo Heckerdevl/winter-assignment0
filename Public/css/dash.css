@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Ubuntu';
+}
+
+body {
+    overflow-x: hidden;
+    /* perspective: 200px; */
+}
+
+#hr1 {
+    background-color: rgb(91, 91, 91);
+    width: 100vw;
+    margin-top: 240px;
+    height: 8px;
+}
+
+.apparent {
+    height: 100vh;
+    width: 100vw;
+    rotate:10deg;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    border-radius: 35%;
+}
+
+.navbar {
+    position: relative;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin: 20px 135px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#img {
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+#h4 {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#search {
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 20px 135px;
+    color: rgb(0, 0, 0);
+}
+
+header::before {
+    content: "";
+    background: url("../images/theme.jpg") no-repeat center center/cover;
+    position: absolute;
+    /* transform: rotateY('30deg'); */
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* middle content */
+.box {
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+}
+
+#h3 {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+#content {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 150px;
+    /* margin: 23px; */
+}
+
+#h41 {
+    margin-top: 80px;
+    margin-right: 1270px;
+    color: rgb(255, 170, 170);
+    position: absolute;
+    font-size: 23px;
+}
+
+/* Movie Cards */
+.card .image {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+.image:hover{
+    width: 180px;
+    height: 250px;
+    transition: 0.8s;
+    /* transform: 10s; */
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(0, 0, 0);
+    height: 60vh;
+    width: 100vw;
+
+}
+.card {
+    position: relative;
+    margin-top: 140px;
+    /* border: 2px solid aqua; */
+    background-color: black;
+    border-radius: 15px;
+}
+
+.swiper {
+    width: 95%;
+}
+
+#h42 {
+    margin-top: 80px;
+    margin-right: 1250px;
+    color: rgb(255, 170, 170);
+    position: absolute;
+    font-size: 23px;
+}
+
+#h43 {
+    margin-top: 80px;
+    margin-right: 1250px;
+    color: rgb(255, 170, 170);
+    position: absolute;
+    font-size: 23px;
+}
+
+#hr2 {
+    width: 100vw;
+    height: 8px;
+    background-color: rgb(65, 65, 65);
+}
+
+/* lower section */
+
+.inside-info{
+    width: 100%;
+    height: 55vh;
+    position: absolute;
+    background-color: rgb(0, 6, 28);
+}
+.info-box{
+    display: flex;
+    justify-content: space-between;
+}
+#h31{
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+}
+.links{
+    /* border: 2px solid white; */
+    width: 500px;
+    margin-top: 40px;
+    height: 260px;
+}
+.head{
+    text-align: center;
+    font-weight: bold;
+    /* margin-left: 85px; */
+}
+.details{
+    margin: 23px;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.details a{
+    margin-left: 15px;
+
+}
+.h5{
+    font-weight: normal;
+    margin-top: 2px;
+}
+/* search button */
+form {
+    backdrop-filter: blur(100px );
+    border: 2px solid black;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display:flex;
+    margin-top: 17px;
+    margin-left: 55px;
+    flex-direction:row;
+    align-items:center;
+  }
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+
+  svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+

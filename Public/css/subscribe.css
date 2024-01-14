@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    color: aqua;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+
+.heading{
+    font-weight: bold;
+    /* text-align: center; */
+    /* margin-left: 100px; */
+    font-family: 'Bebas Neue', sans-serif;
+
+    position: relative;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.box{
+    margin-top: 23px;
+    border: 1px solid black;
+    padding: 23px;
+    width: 830px;
+    display: flex;
+    border-radius:130px;
+    margin-top: 80px;
+    backdrop-filter: blur(15px);
+    box-shadow: 13px 13px 13px black;
+}
+#logo{
+    margin: 30px;
+
+    
+}
+label {
+    margin: 0px 180px;
+    text-align: center;
+    
+    font-weight: bold;
+    
+}
+#email0{
+    margin: 0px 195px;
+}
+input{
+    /* width: 390px; */
+    margin-bottom: 18px;
+    border: 3px solid black;
+    box-shadow: 13px 13px 8px rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(200, 198, 255);;
+}
+.input input{
+    width: 300px;
+    margin-left: 75px;
+}
+h5{
+    margin-bottom: 10px;
+    /* margin-left: 80px; */
+    font-size: 17px;
+}
+.upload input{
+    /* margin-left: 105px; */
+    border: 3px solid black;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 390px;
+    color: black;
+    /* font-size: 17px; */
+}
+#submit{
+    width: 80px;
+    box-shadow: 13px 13px 8px rgb(0, 0, 0);
+    padding: 7px;
+    cursor: pointer;
+    margin: 0px 200px;
+    /* background-color: rgb(184, 255, 184); */
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.779);
+    font-weight: bold;
+    border-radius: 8px;
+}
+.container::before {
+    content: "";
+    background: url("https://wallpapers.com/images/hd/film-background-8jub8e0yf7p33omg.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    /* bottom: 0; */
+}
+.apparent {
+    height:100vh;
+    width: 100vw;
+    /* rotate:10deg; */
+    opacity: 0.4;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    /* border-radius: 35%; */
+}
+.logo {
+    /* font-size: 90px; */
+    margin-top: px;
+    padding: 23px;
+    
+    /* color: red; */
+}
+.logo img{
+    border: 2px solid black;
+    box-shadow: 13px 13px 11px rgba(0, 0, 0, 0.725);
+    border-radius: 30%;
+    /* opacity: 25; */
+}
+#h3{
+    text-align: center;
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.price{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.price p{
+    text-align: center;
+    font-weight: bold;
+}
+.price a{
+    text-decoration: none;
+    color: aqua;
+}
+.form{
+    margin-top: 35px;
+}
